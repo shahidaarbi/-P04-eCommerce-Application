@@ -33,44 +33,53 @@ public class UserController {
 	@Autowired
 	private BCryptPasswordEncoder bCryptPasswordEncoder;
 	
-	  @Autowired private UserDetailsServiceImpl userDetailsService;
-	 
+	@Autowired private UserDetailsServiceImpl userDetailsService;
 	
 	@GetMapping("/id/{id}")
 	public ResponseEntity<User> findById(@PathVariable Long id) {
-		return ResponseEntity.of(userRepository.findById(id));
-	}
-	
-	@GetMapping("/test")
-	public ResponseEntity<User> test(@PathVariable Long id) {
+		logger.info("*******Getting user by id: " + id);
 		return ResponseEntity.of(userRepository.findById(id));
 	}
 	@GetMapping("/{username}")
 	public ResponseEntity<User> findByUserName(@PathVariable String username) {
+		logger.info("*******Getting user by username " + username);
 		User user = userRepository.findByUsername(username);
 		return user == null ? ResponseEntity.notFound().build() : ResponseEntity.ok(user);
 	}
 	
 	@PostMapping("/create")
-	public ResponseEntity<User> createUser(@RequestBody CreateUserRequest createUserRequest) {
-		User user = new User();
-		user.setUsername(createUserRequest.getUsername());
-		Cart cart = new Cart();
-		cartRepository.save(cart);
-		user.setCart(cart);
-		if(createUserRequest.getPassword().length()<7 ||
-				!createUserRequest.getPassword().equals(createUserRequest.getConfirmPassword())){
-		    logger.error("CreateUser request failures");
-			return ResponseEntity.badRequest().build();
-		}
-		
-		
-		user.setSalt(userDetailsService.createSalt());
+	public ResponseEntity<?> createUser(@RequestBody CreateUserRequest createUserRequest) {
+		try{
+			User user = new User();
+			if(userRepository.findByUsername(createUserRequest.getUsername()) != null) {
+				logger.error("*******Error creating duplicate user..." + createUserRequest.getUsername());
+				throw new Exception("This user already exists.");
+			}
+			user.setUsername(createUserRequest.getUsername());
+			logger.info("*******user name set with " + createUserRequest.getUsername());
+			Cart cart = new Cart();
+			cartRepository.save(cart);
+			user.setCart(cart);
 
-		user.setPassword(bCryptPasswordEncoder.encode(createUserRequest.getPassword()));
-		//user.setPassword(createUserRequest.getPassword());
-		userRepository.save(user);
-		logger.info("CreateUser request successes");
-		return ResponseEntity.ok(user);
+			if(createUserRequest.getPassword().length() < 7 ||
+					!createUserRequest.getPassword().equals(createUserRequest.getConfirmPassword())){
+				logger.error("*******Error creating user..." + createUserRequest.getUsername());
+				throw new Exception(" Passwords must match and length must be 7 or more characters.");
+			}
+			user.setSalt(userDetailsService.createSalt());
+			userDetailsService.get_SecurePassword("SHA-256", createUserRequest.getPassword(), user.getSalt());
+			user.setPassword(bCryptPasswordEncoder.encode(createUserRequest.getPassword()));
+
+			userRepository.save(user);
+			logger.info("*******Create user success", createUserRequest.getUsername());
+			return ResponseEntity.ok(user);
+		}
+		catch(Exception e){
+			logger.error("*****Error on create user " + createUserRequest.getUsername()  +e.getMessage());
+			return ResponseEntity.badRequest().body(
+					"Error on create user " + createUserRequest.getUsername()
+					+ ": " + e.getMessage());
+		}
 	}
+	
 }

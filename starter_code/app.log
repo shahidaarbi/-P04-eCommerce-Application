@@ -1,0 +1,335 @@
+2021-11-21 22:22:45,302 INFO com.example.demo.SareetaApplication [main] Starting SareetaApplication on Shahidas-MacBook-Pro.local with PID 9043 (started by shahida in /Users/shahida/Development/code/Spring_Boot/P04-eCommerce Application/starter_code)
+2021-11-21 22:22:45,311 INFO com.example.demo.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2021-11-21 22:22:46,576 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-11-21 22:22:46,576 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-11-21 22:22:46,681 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-11-21 22:22:46,891 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-21 22:22:47,118 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-21 22:22:47,180 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-21 22:22:47,268 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2021-11-21 22:22:47,270 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2021-11-21 22:22:47,459 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-21 22:22:47,592 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-21 22:22:49,584 INFO com.example.demo.SareetaApplication [main] Started SareetaApplication in 4.826 seconds (JVM running for 5.285)
+2021-11-21 22:22:49,586 INFO com.example.demo.SareetaApplication [main] Log file Start
+2021-11-21 22:22:54,289 INFO com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-1 - Shutdown initiated...
+2021-11-21 22:22:54,291 INFO com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-1 - Shutdown completed.
+2021-11-21 22:52:17,591 INFO com.example.demo.SareetaApplicationTests [main] Starting SareetaApplicationTests on Shahidas-MacBook-Pro.local with PID 9799 (started by shahida in /Users/shahida/Development/code/Spring_Boot/P04-eCommerce Application/starter_code)
+2021-11-21 22:52:17,593 INFO com.example.demo.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2021-11-21 22:52:18,888 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-21 22:52:19,078 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-21 22:52:19,151 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-21 22:52:19,249 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2021-11-21 22:52:19,251 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2021-11-21 22:52:19,432 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-21 22:52:19,577 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-21 22:52:21,652 INFO com.example.demo.SareetaApplicationTests [main] Started SareetaApplicationTests in 4.491 seconds (JVM running for 5.233)
+2021-11-21 22:52:21,915 INFO com.example.demo.SareetaApplication [main] *******user name set with Shahida
+2021-11-21 22:52:21,915 ERROR com.example.demo.SareetaApplication [main] *******Error creating user...Shahida
+2021-11-21 22:52:21,915 ERROR com.example.demo.SareetaApplication [main] *****Error on create user Shahida Passwords must match and length must be 7 or more characters.
+2021-11-21 22:52:21,923 INFO com.example.demo.SareetaApplication [main] *******user name set with Shahida
+2021-11-21 22:52:21,925 INFO com.example.demo.SareetaApplication [main] *******Create user success
+2021-11-21 22:52:21,926 INFO com.example.demo.SareetaApplication [main] *******Getting user by id: 1
+2021-11-21 22:52:21,927 INFO com.example.demo.SareetaApplication [main] *******Getting user by username Shahida
+2021-11-21 22:52:21,928 INFO com.example.demo.SareetaApplication [main] *******user name set with Shahida
+2021-11-21 22:52:21,928 ERROR com.example.demo.SareetaApplication [main] *******Error creating user...Shahida
+2021-11-21 22:52:21,928 ERROR com.example.demo.SareetaApplication [main] *****Error on create user Shahida Passwords must match and length must be 7 or more characters.
+2021-11-21 22:52:21,959 ERROR com.example.demo.SareetaApplication [main] *******Remove from cart - item with id 4 not found
+2021-11-21 22:52:21,959 ERROR com.example.demo.SareetaApplication [main] *******Add to cart - User abc is null
+2021-11-21 22:52:21,960 INFO com.example.demo.SareetaApplication [main] *******Successfully Add to Cart
+2021-11-21 22:52:21,960 ERROR com.example.demo.SareetaApplication [main] *******Add to cart - item with id 5 not found
+2021-11-21 22:52:21,961 INFO com.example.demo.SareetaApplication [main] *******Successfully Add to Cart
+2021-11-21 22:52:21,962 ERROR com.example.demo.SareetaApplication [main] *******Add to cart - User abc is null
+2021-11-21 22:52:21,962 INFO com.example.demo.SareetaApplication [main] *******Successfully Add to Cart
+2021-11-21 22:52:21,963 INFO com.example.demo.SareetaApplication [main] *******Succesfully remove from item from 
+2021-11-21 22:52:21,987 ERROR com.example.demo.SareetaApplication [main] *******Submit to Order - User  is null
+2021-11-21 22:52:21,987 INFO com.example.demo.SareetaApplication [main] Save order succes for user Shahida
+2021-11-21 22:52:21,987 INFO com.example.demo.SareetaApplication [main] Save order succes for user Shahida
+2021-11-21 22:52:21,988 INFO com.example.demo.SareetaApplication [main] ******Succesfully display the order history of Shahida
+2021-11-21 22:52:21,988 ERROR com.example.demo.SareetaApplication [main] *******User amb is null
+2021-11-21 22:52:21,989 INFO com.example.demo.SareetaApplication [main] ******Succesfully display the order history of Shahida
+2021-11-21 22:52:21,998 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown initiated...
+2021-11-21 22:52:22,000 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown completed.
+2021-11-21 23:00:15,996 INFO com.example.demo.SareetaApplication [main] Starting SareetaApplication on Shahidas-MacBook-Pro.local with PID 10017 (started by shahida in /Users/shahida/Development/code/Spring_Boot/P04-eCommerce Application/starter_code)
+2021-11-21 23:00:16,000 INFO com.example.demo.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2021-11-21 23:00:17,594 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-11-21 23:00:17,594 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-11-21 23:00:17,691 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-11-21 23:00:17,870 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-21 23:00:18,169 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-21 23:00:18,237 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-21 23:00:18,343 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2021-11-21 23:00:18,346 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2021-11-21 23:00:18,578 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-21 23:00:18,776 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-21 23:00:20,916 INFO com.example.demo.SareetaApplication [main] Started SareetaApplication in 5.359 seconds (JVM running for 5.87)
+2021-11-21 23:00:20,918 INFO com.example.demo.SareetaApplication [main] Log file Start
+2021-11-21 23:00:27,850 INFO com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-1 - Shutdown initiated...
+2021-11-21 23:00:27,853 INFO com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-1 - Shutdown completed.
+2021-11-21 23:00:39,241 INFO com.example.demo.SareetaApplicationTests [main] Starting SareetaApplicationTests on Shahidas-MacBook-Pro.local with PID 10026 (started by shahida in /Users/shahida/Development/code/Spring_Boot/P04-eCommerce Application/starter_code)
+2021-11-21 23:00:39,242 INFO com.example.demo.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2021-11-21 23:00:40,334 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-21 23:00:40,495 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-21 23:00:40,552 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-21 23:00:40,606 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2021-11-21 23:00:40,607 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2021-11-21 23:00:40,735 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-21 23:00:40,858 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-21 23:00:42,613 INFO com.example.demo.SareetaApplicationTests [main] Started SareetaApplicationTests in 3.597 seconds (JVM running for 4.23)
+2021-11-21 23:00:42,878 INFO com.example.demo.SareetaApplication [main] *******user name set with Shahida
+2021-11-21 23:00:42,879 ERROR com.example.demo.SareetaApplication [main] *******Error creating user...Shahida
+2021-11-21 23:00:42,879 ERROR com.example.demo.SareetaApplication [main] *****Error on create user Shahida Passwords must match and length must be 7 or more characters.
+2021-11-21 23:00:42,885 INFO com.example.demo.SareetaApplication [main] *******user name set with Shahida
+2021-11-21 23:00:42,888 INFO com.example.demo.SareetaApplication [main] *******Create user success
+2021-11-21 23:00:42,889 INFO com.example.demo.SareetaApplication [main] *******Getting user by id: 1
+2021-11-21 23:00:42,890 INFO com.example.demo.SareetaApplication [main] *******Getting user by username Shahida
+2021-11-21 23:00:42,890 INFO com.example.demo.SareetaApplication [main] *******user name set with Shahida
+2021-11-21 23:00:42,890 ERROR com.example.demo.SareetaApplication [main] *******Error creating user...Shahida
+2021-11-21 23:00:42,891 ERROR com.example.demo.SareetaApplication [main] *****Error on create user Shahida Passwords must match and length must be 7 or more characters.
+2021-11-21 23:00:42,923 ERROR com.example.demo.SareetaApplication [main] *******Remove from cart - item with id 4 not found
+2021-11-21 23:00:42,923 ERROR com.example.demo.SareetaApplication [main] *******Add to cart - User abc is null
+2021-11-21 23:00:42,925 INFO com.example.demo.SareetaApplication [main] *******Successfully Add to Cart
+2021-11-21 23:00:42,926 ERROR com.example.demo.SareetaApplication [main] *******Add to cart - item with id 5 not found
+2021-11-21 23:00:42,926 INFO com.example.demo.SareetaApplication [main] *******Successfully Add to Cart
+2021-11-21 23:00:42,927 ERROR com.example.demo.SareetaApplication [main] *******Add to cart - User abc is null
+2021-11-21 23:00:42,927 INFO com.example.demo.SareetaApplication [main] *******Successfully Add to Cart
+2021-11-21 23:00:42,928 INFO com.example.demo.SareetaApplication [main] *******Succesfully remove from item from 
+2021-11-21 23:00:42,950 ERROR com.example.demo.SareetaApplication [main] *******Submit to Order - User  is null
+2021-11-21 23:00:42,951 INFO com.example.demo.SareetaApplication [main] Save order succes for user Shahida
+2021-11-21 23:00:42,951 INFO com.example.demo.SareetaApplication [main] Save order succes for user Shahida
+2021-11-21 23:00:42,952 INFO com.example.demo.SareetaApplication [main] ******Succesfully display the order history of Shahida
+2021-11-21 23:00:42,952 ERROR com.example.demo.SareetaApplication [main] *******User amb is null
+2021-11-21 23:00:42,953 INFO com.example.demo.SareetaApplication [main] ******Succesfully display the order history of Shahida
+2021-11-21 23:00:42,962 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown initiated...
+2021-11-21 23:00:42,964 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown completed.
+2021-11-21 23:03:47,089 INFO com.example.demo.SareetaApplicationTests [main] Starting SareetaApplicationTests on Shahidas-MacBook-Pro.local with PID 10146 (started by shahida in /Users/shahida/Development/code/Spring_Boot/P04-eCommerce Application/starter_code)
+2021-11-21 23:03:47,090 INFO com.example.demo.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2021-11-21 23:03:48,364 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-21 23:03:48,546 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-21 23:03:48,635 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-21 23:03:48,736 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2021-11-21 23:03:48,738 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2021-11-21 23:03:48,917 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-21 23:03:49,059 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-21 23:03:51,121 INFO com.example.demo.SareetaApplicationTests [main] Started SareetaApplicationTests in 4.486 seconds (JVM running for 5.194)
+2021-11-21 23:03:51,360 INFO com.example.demo.SareetaApplication [main] *******user name set with Shahida
+2021-11-21 23:03:51,360 ERROR com.example.demo.SareetaApplication [main] *******Error creating user...Shahida
+2021-11-21 23:03:51,360 ERROR com.example.demo.SareetaApplication [main] *****Error on create user Shahida Passwords must match and length must be 7 or more characters.
+2021-11-21 23:03:51,366 INFO com.example.demo.SareetaApplication [main] *******user name set with Shahida
+2021-11-21 23:03:51,369 INFO com.example.demo.SareetaApplication [main] *******Create user success
+2021-11-21 23:03:51,370 INFO com.example.demo.SareetaApplication [main] *******Getting user by id: 1
+2021-11-21 23:03:51,371 INFO com.example.demo.SareetaApplication [main] *******Getting user by username Shahida
+2021-11-21 23:03:51,372 INFO com.example.demo.SareetaApplication [main] *******user name set with Shahida
+2021-11-21 23:03:51,372 ERROR com.example.demo.SareetaApplication [main] *******Error creating user...Shahida
+2021-11-21 23:03:51,372 ERROR com.example.demo.SareetaApplication [main] *****Error on create user Shahida Passwords must match and length must be 7 or more characters.
+2021-11-21 23:03:51,399 ERROR com.example.demo.SareetaApplication [main] *******Remove from cart - item with id 4 not found
+2021-11-21 23:03:51,400 ERROR com.example.demo.SareetaApplication [main] *******Add to cart - User abc is null
+2021-11-21 23:03:51,400 INFO com.example.demo.SareetaApplication [main] *******Successfully Add to Cart
+2021-11-21 23:03:51,401 ERROR com.example.demo.SareetaApplication [main] *******Add to cart - item with id 5 not found
+2021-11-21 23:03:51,402 INFO com.example.demo.SareetaApplication [main] *******Successfully Add to Cart
+2021-11-21 23:03:51,402 ERROR com.example.demo.SareetaApplication [main] *******Add to cart - User abc is null
+2021-11-21 23:03:51,402 INFO com.example.demo.SareetaApplication [main] *******Successfully Add to Cart
+2021-11-21 23:03:51,403 INFO com.example.demo.SareetaApplication [main] *******Succesfully remove from item from 
+2021-11-21 23:03:51,423 ERROR com.example.demo.SareetaApplication [main] *******Submit to Order - User  is null
+2021-11-21 23:03:51,423 INFO com.example.demo.SareetaApplication [main] Save order succes for user Shahida
+2021-11-21 23:03:51,424 INFO com.example.demo.SareetaApplication [main] Save order succes for user Shahida
+2021-11-21 23:03:51,424 INFO com.example.demo.SareetaApplication [main] ******Succesfully display the order history of Shahida
+2021-11-21 23:03:51,425 ERROR com.example.demo.SareetaApplication [main] *******User amb is null
+2021-11-21 23:03:51,425 INFO com.example.demo.SareetaApplication [main] ******Succesfully display the order history of Shahida
+2021-11-21 23:03:51,434 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown initiated...
+2021-11-21 23:03:51,436 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown completed.
+2021-11-21 23:06:51,071 INFO com.example.demo.SareetaApplicationTests [main] Starting SareetaApplicationTests on Shahidas-MacBook-Pro.local with PID 10243 (started by shahida in /Users/shahida/Development/code/Spring_Boot/P04-eCommerce Application/starter_code)
+2021-11-21 23:06:51,073 INFO com.example.demo.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2021-11-21 23:06:52,358 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-21 23:06:52,542 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-21 23:06:52,614 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-21 23:06:52,707 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2021-11-21 23:06:52,709 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2021-11-21 23:06:52,890 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-21 23:06:53,048 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-21 23:06:55,087 INFO com.example.demo.SareetaApplicationTests [main] Started SareetaApplicationTests in 4.437 seconds (JVM running for 5.21)
+2021-11-21 23:06:55,359 INFO com.example.demo.SareetaApplication [main] *******user name set with Shahida
+2021-11-21 23:06:55,360 ERROR com.example.demo.SareetaApplication [main] *******Error creating user...Shahida
+2021-11-21 23:06:55,360 ERROR com.example.demo.SareetaApplication [main] *****Error on create user Shahida Passwords must match and length must be 7 or more characters.
+2021-11-21 23:06:55,368 INFO com.example.demo.SareetaApplication [main] *******user name set with Shahida
+2021-11-21 23:06:55,371 INFO com.example.demo.SareetaApplication [main] *******Create user success
+2021-11-21 23:06:55,373 INFO com.example.demo.SareetaApplication [main] *******Getting user by id: 1
+2021-11-21 23:06:55,374 INFO com.example.demo.SareetaApplication [main] *******Getting user by username Shahida
+2021-11-21 23:06:55,375 INFO com.example.demo.SareetaApplication [main] *******user name set with Shahida
+2021-11-21 23:06:55,375 INFO com.example.demo.SareetaApplication [main] *******Create user success
+2021-11-21 23:06:55,417 ERROR com.example.demo.SareetaApplication [main] *******Remove from cart - item with id 4 not found
+2021-11-21 23:06:55,418 ERROR com.example.demo.SareetaApplication [main] *******Add to cart - User abc is null
+2021-11-21 23:06:55,421 INFO com.example.demo.SareetaApplication [main] *******Successfully Add to Cart
+2021-11-21 23:06:55,422 ERROR com.example.demo.SareetaApplication [main] *******Add to cart - item with id 5 not found
+2021-11-21 23:06:55,423 INFO com.example.demo.SareetaApplication [main] *******Successfully Add to Cart
+2021-11-21 23:06:55,423 ERROR com.example.demo.SareetaApplication [main] *******Add to cart - User abc is null
+2021-11-21 23:06:55,424 INFO com.example.demo.SareetaApplication [main] *******Successfully Add to Cart
+2021-11-21 23:06:55,425 INFO com.example.demo.SareetaApplication [main] *******Succesfully remove from item from 
+2021-11-21 23:06:55,456 ERROR com.example.demo.SareetaApplication [main] *******Submit to Order - User  is null
+2021-11-21 23:06:55,456 INFO com.example.demo.SareetaApplication [main] Save order succes for user Shahida
+2021-11-21 23:06:55,457 INFO com.example.demo.SareetaApplication [main] Save order succes for user Shahida
+2021-11-21 23:06:55,458 INFO com.example.demo.SareetaApplication [main] ******Succesfully display the order history of Shahida
+2021-11-21 23:06:55,458 ERROR com.example.demo.SareetaApplication [main] *******User amb is null
+2021-11-21 23:06:55,459 INFO com.example.demo.SareetaApplication [main] ******Succesfully display the order history of Shahida
+2021-11-21 23:06:55,468 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown initiated...
+2021-11-21 23:06:55,470 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown completed.
+2021-11-21 23:08:35,806 INFO com.example.demo.SareetaApplicationTests [main] Starting SareetaApplicationTests on Shahidas-MacBook-Pro.local with PID 10308 (started by shahida in /Users/shahida/Development/code/Spring_Boot/P04-eCommerce Application/starter_code)
+2021-11-21 23:08:35,807 INFO com.example.demo.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2021-11-21 23:08:36,982 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-21 23:08:37,155 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-21 23:08:37,224 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-21 23:08:37,300 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2021-11-21 23:08:37,301 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2021-11-21 23:08:37,482 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-21 23:08:37,623 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-21 23:08:39,690 INFO com.example.demo.SareetaApplicationTests [main] Started SareetaApplicationTests in 4.08 seconds (JVM running for 4.71)
+2021-11-21 23:08:39,938 INFO com.example.demo.SareetaApplication [main] *******user name set with Shahida
+2021-11-21 23:08:39,940 INFO com.example.demo.SareetaApplication [main] *******Create user success
+2021-11-21 23:08:39,947 INFO com.example.demo.SareetaApplication [main] *******user name set with Shahida
+2021-11-21 23:08:39,948 INFO com.example.demo.SareetaApplication [main] *******Create user success
+2021-11-21 23:08:39,949 INFO com.example.demo.SareetaApplication [main] *******Getting user by id: 1
+2021-11-21 23:08:39,951 INFO com.example.demo.SareetaApplication [main] *******Getting user by username Shahida
+2021-11-21 23:08:39,952 INFO com.example.demo.SareetaApplication [main] *******user name set with Shahida
+2021-11-21 23:08:39,953 INFO com.example.demo.SareetaApplication [main] *******Create user success
+2021-11-21 23:08:39,990 ERROR com.example.demo.SareetaApplication [main] *******Remove from cart - item with id 4 not found
+2021-11-21 23:08:39,990 ERROR com.example.demo.SareetaApplication [main] *******Add to cart - User abc is null
+2021-11-21 23:08:39,991 INFO com.example.demo.SareetaApplication [main] *******Successfully Add to Cart
+2021-11-21 23:08:39,993 ERROR com.example.demo.SareetaApplication [main] *******Add to cart - item with id 5 not found
+2021-11-21 23:08:39,994 INFO com.example.demo.SareetaApplication [main] *******Successfully Add to Cart
+2021-11-21 23:08:39,995 ERROR com.example.demo.SareetaApplication [main] *******Add to cart - User abc is null
+2021-11-21 23:08:39,995 INFO com.example.demo.SareetaApplication [main] *******Successfully Add to Cart
+2021-11-21 23:08:39,996 INFO com.example.demo.SareetaApplication [main] *******Succesfully remove from item from 
+2021-11-21 23:08:40,021 ERROR com.example.demo.SareetaApplication [main] *******Submit to Order - User  is null
+2021-11-21 23:08:40,021 INFO com.example.demo.SareetaApplication [main] Save order succes for user Shahida
+2021-11-21 23:08:40,022 INFO com.example.demo.SareetaApplication [main] Save order succes for user Shahida
+2021-11-21 23:08:40,023 INFO com.example.demo.SareetaApplication [main] ******Succesfully display the order history of Shahida
+2021-11-21 23:08:40,023 ERROR com.example.demo.SareetaApplication [main] *******User amb is null
+2021-11-21 23:08:40,024 INFO com.example.demo.SareetaApplication [main] ******Succesfully display the order history of Shahida
+2021-11-21 23:08:40,034 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown initiated...
+2021-11-21 23:08:40,036 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown completed.
+2021-11-21 23:10:22,729 INFO com.example.demo.SareetaApplicationTests [main] Starting SareetaApplicationTests on Shahidas-MacBook-Pro.local with PID 10373 (started by shahida in /Users/shahida/Development/code/Spring_Boot/P04-eCommerce Application/starter_code)
+2021-11-21 23:10:22,730 INFO com.example.demo.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2021-11-21 23:10:24,025 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-21 23:10:24,232 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-21 23:10:24,298 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-21 23:10:24,366 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2021-11-21 23:10:24,367 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2021-11-21 23:10:24,523 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-21 23:10:24,650 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-21 23:10:26,632 INFO com.example.demo.SareetaApplicationTests [main] Started SareetaApplicationTests in 4.229 seconds (JVM running for 4.903)
+2021-11-21 23:10:26,894 INFO com.example.demo.SareetaApplication [main] *******user name set with Shahida
+2021-11-21 23:10:26,896 INFO com.example.demo.SareetaApplication [main] *******Create user success
+2021-11-21 23:10:26,904 INFO com.example.demo.SareetaApplication [main] *******user name set with Shahida
+2021-11-21 23:10:26,904 INFO com.example.demo.SareetaApplication [main] *******Create user success
+2021-11-21 23:10:26,905 INFO com.example.demo.SareetaApplication [main] *******Getting user by id: 1
+2021-11-21 23:10:26,906 INFO com.example.demo.SareetaApplication [main] *******Getting user by username Shahida
+2021-11-21 23:10:26,907 INFO com.example.demo.SareetaApplication [main] *******user name set with Shahida
+2021-11-21 23:10:26,908 ERROR com.example.demo.SareetaApplication [main] *******Error creating user...Shahida
+2021-11-21 23:10:26,908 ERROR com.example.demo.SareetaApplication [main] *****Error on create user Shahida Passwords must match and length must be 7 or more characters.
+2021-11-21 23:10:26,941 ERROR com.example.demo.SareetaApplication [main] *******Remove from cart - item with id 4 not found
+2021-11-21 23:10:26,941 ERROR com.example.demo.SareetaApplication [main] *******Add to cart - User abc is null
+2021-11-21 23:10:26,942 INFO com.example.demo.SareetaApplication [main] *******Successfully Add to Cart
+2021-11-21 23:10:26,944 ERROR com.example.demo.SareetaApplication [main] *******Add to cart - item with id 5 not found
+2021-11-21 23:10:26,944 INFO com.example.demo.SareetaApplication [main] *******Successfully Add to Cart
+2021-11-21 23:10:26,945 ERROR com.example.demo.SareetaApplication [main] *******Add to cart - User abc is null
+2021-11-21 23:10:26,946 INFO com.example.demo.SareetaApplication [main] *******Successfully Add to Cart
+2021-11-21 23:10:26,947 INFO com.example.demo.SareetaApplication [main] *******Succesfully remove from item from 
+2021-11-21 23:10:26,972 ERROR com.example.demo.SareetaApplication [main] *******Submit to Order - User  is null
+2021-11-21 23:10:26,973 INFO com.example.demo.SareetaApplication [main] Save order succes for user Shahida
+2021-11-21 23:10:26,973 INFO com.example.demo.SareetaApplication [main] Save order succes for user Shahida
+2021-11-21 23:10:26,974 INFO com.example.demo.SareetaApplication [main] ******Succesfully display the order history of Shahida
+2021-11-21 23:10:26,974 ERROR com.example.demo.SareetaApplication [main] *******User amb is null
+2021-11-21 23:10:26,974 INFO com.example.demo.SareetaApplication [main] ******Succesfully display the order history of Shahida
+2021-11-21 23:10:26,989 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown initiated...
+2021-11-21 23:10:26,991 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown completed.
+2021-11-21 23:10:44,060 INFO com.example.demo.SareetaApplicationTests [main] Starting SareetaApplicationTests on Shahidas-MacBook-Pro.local with PID 10402 (started by shahida in /Users/shahida/Development/code/Spring_Boot/P04-eCommerce Application/starter_code)
+2021-11-21 23:10:44,061 INFO com.example.demo.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2021-11-21 23:10:45,125 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-21 23:10:45,266 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-21 23:10:45,322 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-21 23:10:45,371 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2021-11-21 23:10:45,372 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2021-11-21 23:10:45,486 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-21 23:10:45,608 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-21 23:10:47,351 INFO com.example.demo.SareetaApplicationTests [main] Started SareetaApplicationTests in 3.518 seconds (JVM running for 4.15)
+2021-11-21 23:10:47,626 INFO com.example.demo.SareetaApplication [main] *******user name set with Shahida
+2021-11-21 23:10:47,628 INFO com.example.demo.SareetaApplication [main] *******Create user success
+2021-11-21 23:10:47,636 INFO com.example.demo.SareetaApplication [main] *******user name set with Shahida
+2021-11-21 23:10:47,636 INFO com.example.demo.SareetaApplication [main] *******Create user success
+2021-11-21 23:10:47,637 INFO com.example.demo.SareetaApplication [main] *******Getting user by id: 1
+2021-11-21 23:10:47,638 INFO com.example.demo.SareetaApplication [main] *******Getting user by username Shahida
+2021-11-21 23:10:47,639 INFO com.example.demo.SareetaApplication [main] *******user name set with Shahida
+2021-11-21 23:10:47,639 ERROR com.example.demo.SareetaApplication [main] *******Error creating user...Shahida
+2021-11-21 23:10:47,639 ERROR com.example.demo.SareetaApplication [main] *****Error on create user Shahida Passwords must match and length must be 7 or more characters.
+2021-11-21 23:10:47,672 ERROR com.example.demo.SareetaApplication [main] *******Remove from cart - item with id 4 not found
+2021-11-21 23:10:47,672 ERROR com.example.demo.SareetaApplication [main] *******Add to cart - User abc is null
+2021-11-21 23:10:47,673 INFO com.example.demo.SareetaApplication [main] *******Successfully Add to Cart
+2021-11-21 23:10:47,674 ERROR com.example.demo.SareetaApplication [main] *******Add to cart - item with id 5 not found
+2021-11-21 23:10:47,675 INFO com.example.demo.SareetaApplication [main] *******Successfully Add to Cart
+2021-11-21 23:10:47,676 ERROR com.example.demo.SareetaApplication [main] *******Add to cart - User abc is null
+2021-11-21 23:10:47,676 INFO com.example.demo.SareetaApplication [main] *******Successfully Add to Cart
+2021-11-21 23:10:47,677 INFO com.example.demo.SareetaApplication [main] *******Succesfully remove from item from 
+2021-11-21 23:10:47,706 ERROR com.example.demo.SareetaApplication [main] *******Submit to Order - User  is null
+2021-11-21 23:10:47,706 INFO com.example.demo.SareetaApplication [main] Save order succes for user Shahida
+2021-11-21 23:10:47,707 INFO com.example.demo.SareetaApplication [main] Save order succes for user Shahida
+2021-11-21 23:10:47,708 INFO com.example.demo.SareetaApplication [main] ******Succesfully display the order history of Shahida
+2021-11-21 23:10:47,709 ERROR com.example.demo.SareetaApplication [main] *******User amb is null
+2021-11-21 23:10:47,709 INFO com.example.demo.SareetaApplication [main] ******Succesfully display the order history of Shahida
+2021-11-21 23:10:47,718 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown initiated...
+2021-11-21 23:10:47,720 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown completed.
+2021-11-21 23:11:37,843 INFO com.example.demo.SareetaApplicationTests [main] Starting SareetaApplicationTests on Shahidas-MacBook-Pro.local with PID 10446 (started by shahida in /Users/shahida/Development/code/Spring_Boot/P04-eCommerce Application/starter_code)
+2021-11-21 23:11:37,844 INFO com.example.demo.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2021-11-21 23:11:39,000 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-21 23:11:39,145 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-21 23:11:39,199 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-21 23:11:39,259 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2021-11-21 23:11:39,261 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2021-11-21 23:11:39,401 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-21 23:11:39,526 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-21 23:11:41,390 INFO com.example.demo.SareetaApplicationTests [main] Started SareetaApplicationTests in 3.761 seconds (JVM running for 4.367)
+2021-11-21 23:11:41,639 INFO com.example.demo.SareetaApplication [main] *******user name set with Shahida
+2021-11-21 23:11:41,640 ERROR com.example.demo.SareetaApplication [main] *******Error creating user...Shahida
+2021-11-21 23:11:41,640 ERROR com.example.demo.SareetaApplication [main] *****Error on create user Shahida Passwords must match and length must be 7 or more characters.
+2021-11-21 23:11:41,644 INFO com.example.demo.SareetaApplication [main] *******user name set with Shahida
+2021-11-21 23:11:41,646 INFO com.example.demo.SareetaApplication [main] *******Create user success
+2021-11-21 23:11:41,647 INFO com.example.demo.SareetaApplication [main] *******Getting user by id: 1
+2021-11-21 23:11:41,648 INFO com.example.demo.SareetaApplication [main] *******Getting user by username Shahida
+2021-11-21 23:11:41,649 INFO com.example.demo.SareetaApplication [main] *******user name set with Shahida
+2021-11-21 23:11:41,649 ERROR com.example.demo.SareetaApplication [main] *******Error creating user...Shahida
+2021-11-21 23:11:41,649 ERROR com.example.demo.SareetaApplication [main] *****Error on create user Shahida Passwords must match and length must be 7 or more characters.
+2021-11-21 23:11:41,679 ERROR com.example.demo.SareetaApplication [main] *******Remove from cart - item with id 4 not found
+2021-11-21 23:11:41,679 ERROR com.example.demo.SareetaApplication [main] *******Add to cart - User abc is null
+2021-11-21 23:11:41,680 INFO com.example.demo.SareetaApplication [main] *******Successfully Add to Cart
+2021-11-21 23:11:41,681 ERROR com.example.demo.SareetaApplication [main] *******Add to cart - item with id 5 not found
+2021-11-21 23:11:41,682 INFO com.example.demo.SareetaApplication [main] *******Successfully Add to Cart
+2021-11-21 23:11:41,683 ERROR com.example.demo.SareetaApplication [main] *******Add to cart - User abc is null
+2021-11-21 23:11:41,683 INFO com.example.demo.SareetaApplication [main] *******Successfully Add to Cart
+2021-11-21 23:11:41,684 INFO com.example.demo.SareetaApplication [main] *******Succesfully remove from item from 
+2021-11-21 23:11:41,712 ERROR com.example.demo.SareetaApplication [main] *******Submit to Order - User  is null
+2021-11-21 23:11:41,713 INFO com.example.demo.SareetaApplication [main] Save order succes for user Shahida
+2021-11-21 23:11:41,713 INFO com.example.demo.SareetaApplication [main] Save order succes for user Shahida
+2021-11-21 23:11:41,714 INFO com.example.demo.SareetaApplication [main] ******Succesfully display the order history of Shahida
+2021-11-21 23:11:41,715 ERROR com.example.demo.SareetaApplication [main] *******User amb is null
+2021-11-21 23:11:41,715 INFO com.example.demo.SareetaApplication [main] ******Succesfully display the order history of Shahida
+2021-11-21 23:11:41,724 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown initiated...
+2021-11-21 23:11:41,727 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown completed.
